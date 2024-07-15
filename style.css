@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    cursor:pointer;
+}
+body{
+    height:100vh;
+    width:100vw;
+    background-color: pink;
+}
+header{
+    width:100vw;
+    height:15%;
+    background-color:  rgb(231, 115, 134);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+
+
+}
+
+#book{
+    font-size: 35px;
+    position: absolute;
+    top:30%;
+    color: white;
+    
+}
+
+.box-container{
+    width:25%;
+    background-color: rgb(243, 122, 142);
+    margin:25px;
+    color:white;
+    border-radius: 30px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+.container{
+    padding: 25px;
+}
+.box-container button{
+    margin-top: 10px;
+    background-color: rgb(113, 90, 90);
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+
+
+}
+.box-container p{
+    font-size: 25px;
+}
+.box-container button:hover{
+    box-shadow: 1px 2px 3px 8px;
+        padding: 6px;
+        color:rgb(245, 138, 156)
+}
+.plus-button{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    font-size: 25px;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background-color: rgb(113, 90, 90) ;
+    color:white;
+}
+.plus-button:hover{
+    box-shadow: 1px 2px 3px 8px;
+    color:rgb(245, 138, 156)
+}
+.add-overlay{
+    height:100%;
+    width:100%;
+    background-color: rgb(248, 174, 187);
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0.8;
+    z-index:1;
+    display: none;
+}
+.formy{
+    background-color: rgb(243, 122, 142);
+    padding: 40px;
+    width:40%;
+    border-radius: 20px;
+    position: absolute;
+    top:30%;
+    left: 30%;
+    z-index:2;
+    display: none;
+
+}
+.formy input{
+background: transparent;
+border: none;
+margin:5px;
+padding: 5px;
+border-bottom: solid black 2px;
+width:100%;
+font-size: 1rem;
+
+}
+textarea{
+    background:transparent;
+    width:100%;
+border: none;
+border: solid black 2px;
+border-radius: 20px;
+margin-top:20px;
+font-size: 1.5rem;
+}
+.formy button{
+    margin-top: 10px;
+    background-color: rgb(113, 90, 90);
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+
+}
+.formy button:hover{
+    box-shadow: 1px 2px 3px 8px;
+    color:rgb(245, 138, 156)
+}
+#cancel-button{
+    margin:10px;
+}
+@media screen  and (max-width:400px){
+    .box-container{
+        width:70%;
+        background-color: rgb(243, 122, 142);
+        margin:25px;
+        color:white;
+        border-radius: 30px;
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px;
+    }
+    .formy{
+        background-color: rgb(243, 122, 142);
+        padding: 40px;
+        width:70%;
+        border-radius: 20px;
+        position: absolute;
+        top:30%;
+        left: 15%;
+        z-index:2;
+        display: none;
+    
+    }
+    .plus-button{
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+        font-size: 25px;
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+        background-color: rgb(113, 90, 90) ;
+        color:white;
+    }
+    
+}
+@media screen  and (max-width:600px){
+    .box-container{
+        width:70%;
+        background-color: rgb(243, 122, 142);
+        margin:25px;
+        color:white;
+        border-radius: 30px;
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px;
+    }
+    .formy{
+        background-color: rgb(243, 122, 142);
+        padding: 40px;
+        width:70%;
+        border-radius: 20px;
+        position: absolute;
+        top:30%;
+        left: 15%;
+        z-index:2;
+        display: none;
+    
+    }
+    .plus-button{
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+        font-size: 25px;
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+        background-color: rgb(113, 90, 90) ;
+        color:white;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+    
